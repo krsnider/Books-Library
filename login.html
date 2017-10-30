@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+  <title>Library Login</title>
+  <script src="login.js"></script>
+</head>
+<body>
+  <form id="login_form" action="">
+    <fieldset>
+
+      <legend>Login Information</legend>
+
+      <p id="username_p">
+        <label for="username">Username*</label>
+        <br>
+        <input id="username" name="username" type="text" />
+      </p>
+
+      <p id="password_p">
+        <label for="password">Password*</label>
+        <br>
+        <input id="password" name="password" type="text" />
+      </p>
+
+      <p>
+        <input type="button" id="submit" name="submit" value="Continue" onclick="check_fields()" />
+
+      </p>
+
+      <div id="asterisk">* indicates a required field</div>
+
+    </fieldset>
+  </form>
+</body>
